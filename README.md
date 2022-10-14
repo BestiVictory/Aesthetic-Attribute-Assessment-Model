@@ -16,25 +16,12 @@ In this paper, we propose an aesthetic attribute assessment of images numericall
 * mindspore-gpu==1.6.0
 * python==3.6.0
 
-## Getting Started
-1. Clone this repo:  
-```
-   git clone https://github.com/BestiVictory/HistoryNet.git  
-   cd SOURCE_HistoryNet
-``` 
-2. Create a Virtual Environment  
-```
-   conda create -n HistoryNet python=3.6 
-   conda activate HistoryNet
-```
-3. Install all the dependencies  
-```
-   pip install -r requirements.txt
-```
-## Dataset
-The image attribute dataset (GAMDA) can be download [here](https://github.com/BestiVictory/AMD-A).
-You can also choose your own dataset.
 
+## Dataset 
+The image attribute dataset (GAMDA) can be download [here](https://github.com/BestiVictory/AMD-A).
+
+## Pre-trained Model
+The pre-trained model can be download from [BaiduCloud](https://pan.baidu.com/s/1wVHrhd8qFR56paay_roV9g).(code:d0nt)
 
 ## Train 
 ```
