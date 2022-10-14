@@ -9,7 +9,8 @@ ACM Transactions on Multimedia Computing Communications and Applications (TOMM)
 In this paper, we propose an aesthetic attribute assessment of images numerically on mixed multi-attribute datasets.We construct an image attribute dataset and introduce external features of attribute based on the dataset.We use EfficentNet-B0 to build a main network for extracting features of inputting images; then, we build ten-classification sub-networks behind the main network.We build three attribute-regression subnetworks and total-score-regression sub-networks behind the main network. Every ECA channel attention is added in each specific branch network in the sub-network.We applied the idea of teacher-student network in the total-score-regression branch-network, and guided the regression of the total score through attribute regression.When the three attribute-regression sub-networks are trained, we connect features values of external attribute, stored in the database, and neurons for the following training.
 
 
-## Prerequisites 
+## Requirements
+* ubuntu 18.04
 * numpy==1.21.6
 * pandas==1.3.5
 * Pillow==9.0.1
