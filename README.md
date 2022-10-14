@@ -1,5 +1,5 @@
 # Aesthetic-Attribute-Assessment-Model
-![image](Network structure.pdf)
+![image](./Network structure.pdf)
 
 [Aesthetic Attribute Assessment of Images Numerically on Mixed Multi-attribute Datasets](https://arxiv.org/abs/2207.01806v1)  
 Xin Jin, Xinning Li, Hao Lou, Chenyu Fan, Qiang Deng, Chaoen Xiao, Shuai Cui, Amit Kumar Singh
