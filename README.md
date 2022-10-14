@@ -1,5 +1,7 @@
 # Aesthetic-Attribute-Assessment-Model
 
+![image](https://user-images.githubusercontent.com/22883072/195799548-0ebbe898-1457-4a72-b1e7-d5f0341dac43.jpg)
+
 [Aesthetic Attribute Assessment of Images Numerically on Mixed Multi-attribute Datasets](https://arxiv.org/abs/2207.01806v1)  
 Xin Jin, Xinning Li, Hao Lou, Chenyu Fan, Qiang Deng, Chaoen Xiao, Shuai Cui, Amit Kumar Singh
 ACM Transactions on Multimedia Computing Communications and Applications (TOMM)
@@ -29,23 +31,18 @@ In this paper, we propose an aesthetic attribute assessment of images numericall
    pip install -r requirements.txt
 ```
 ## Dataset
-The dataset can be download [here](https://github.com/BestiVictory/AMD-A).
+The image attribute dataset (GAMDA) can be download [here](https://github.com/BestiVictory/AMD-A).
 You can also choose your own dataset.
 
-## Model
-1. Download it from [BaiduCloud](https://pan.baidu.com/s/1KQnVA77EBF3huCwG4dVsHQ) (code: j0gi)  
-2. Now the model should be placed in `MODEL` in the root directory.
 
-
-## Colorize Images
-```
-cd SOURCE_HistoryNet
-python colorization.py
-```
 ## Train 
 ```
 cd SOURCE_HistoryNet
-python HistoryNet.py
+python train_class.py
+python train_regre_1.py
+python train_regre_2.py
+python train_regre_3.py
+python train_regre_4.py
 ```
 
 ## Citation
@@ -54,7 +51,7 @@ If you find our code/models useful, please consider citing our paper:
 @article{jin2022aesthetic,
   title={Aesthetic Attribute Assessment of Images Numerically on Mixed Multi-attribute Datasets},
   author={Xin Jin, Xinning Li, Hao Lou, Chenyu Fan, Qiang Deng, Chaoen Xiao, Shuai Cui, Amit Kumar Singh},
-  journal={arXiv preprint arXiv:2207.01806},
+  journal={ACM Transactions on Multimedia Computing Communications and Applications},
   year={2022}
 }
 ```
