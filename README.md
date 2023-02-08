@@ -40,6 +40,9 @@ If you find our code/models useful, please consider citing our paper:
   title={Aesthetic Attribute Assessment of Images Numerically on Mixed Multi-attribute Datasets},
   author={Xin Jin, Xinning Li, Hao Lou, Chenyu Fan, Qiang Deng, Chaoen Xiao, Shuai Cui, Amit Kumar Singh},
   journal={ACM Transactions on Multimedia Computing Communications and Applications},
-  year={2022}
+  year = {2023},
+  publisher = {Association for Computing Machinery},
+  url = {https://doi.org/10.1145/3547144},
+  doi = {10.1145/3547144}
 }
 ```
